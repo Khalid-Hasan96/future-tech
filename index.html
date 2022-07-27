@@ -200,6 +200,75 @@
             </div>
         </section>
         <!-- Register Section -->
+        <section class="my-5">
+            <div class="bg-primary rounded text-dark p-5 d-flex align-items-center">
+                <div class="w-50 text-light">
+                    <h1>Ready to join?</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout.</p>
+                </div>
+                <div class="w-50  d-flex justify-content-center">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light text-primary fw-bold px-5 py-3" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Register Now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark" id="staticBackdropLabel">Registration Form</h5>
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-floating mb-3">
+                                            <input type="email" class="form-control" id="floatingInput"
+                                                placeholder="name@example.com">
+                                            <label for="floatingInput">Email address</label>
+                                        </div>
+                                        <div class="form-floating">
+                                            <input type="password" class="form-control" id="floatingPassword"
+                                                placeholder="Password">
+                                            <label for="floatingPassword">Password</label>
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label  text-dark" for="exampleCheck1">Remember
+                                                Password</label>
+                                        </div>
+                                        <select class="form-select mb-3" aria-label="Default select example">
+                                            <option selected>Gender</option>
+                                            <option value="1">Male</option>
+                                            <option value="2">Female</option>
+                                            <option value="3">Other</option>
+                                        </select>
+                                        <div class="form-floating mb-3">
+                                            <textarea class="form-control" placeholder="Leave your address here"
+                                                id="floatingTextarea"></textarea>
+                                            <label for="floatingTextarea">Address</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <p>Already a member?</p>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sign
+                                        In</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
