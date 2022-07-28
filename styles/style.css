@@ -68,6 +68,16 @@ body {
         display: none;
     }
 
+    .regi-mobile-view {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .regi-width {
+        width: 100%;
+    }
+
     .rating-display {
         display: none;
     }
