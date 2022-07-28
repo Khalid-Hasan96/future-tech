@@ -12,5 +12,42 @@ body {
 }
 
 .img-style {
-    height: 85vh;
+    height: 100vh;
+}
+
+.regi-width {
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-view {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-view img {
+        width: 432px;
+        height: 300px;
+    }
+
+    .regi-mobile-view {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .regi-width {
+        width: 100%;
+    }
+
+    .for-tab-mob {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .for-tab-mob {
+        display: none;
+    }
 }
