@@ -12,11 +12,15 @@ body {
 }
 
 .img-style {
-    height: 100vh;
+    height: 90vh;
 }
 
 .regi-width {
     width: 50%;
+}
+
+.explore {
+    background-color: #F4FAFD;
 }
 
 @media screen and (max-width: 768px) {
@@ -42,12 +46,33 @@ body {
 
     .for-tab-mob {
         display: none;
+        position: static;
     }
 
+    .rating-tab-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rating-display {
+        display: none;
+    }
+
+    .rating-position {
+        position: static;
+    }
 }
 
 @media screen and (max-width: 992px) {
     .for-tab-mob {
         display: none;
+    }
+
+    .rating-display {
+        display: none;
+    }
+
+    .rating-position {
+        position: static;
     }
 }
